@@ -200,7 +200,7 @@ footer {
         flex-flow: column nowrap;
     }
     .menuFlex {
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
     }
     nav {
         text-align: center;
