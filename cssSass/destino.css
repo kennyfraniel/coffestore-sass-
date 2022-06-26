@@ -3,4 +3,121 @@
   padding: 0;
 }
 
+@media (min-width: 481px) and (max-width: 1023px) {
+  .menuFlex {
+    flex-flow: column wrap;
+  }
+  nav {
+    text-align: center;
+  }
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  .cafeteriasFlex {
+    flex-flow: row wrap;
+  }
+  .cafeFlex {
+    flex-flow: row wrap;
+  }
+  .tutorialesFlex {
+    flex-flow: row wrap;
+  }
+}
+@media (max-width: 480px) {
+  .tutorialesFlex {
+    flex-flow: column nowrap;
+  }
+  .cafeteriasFlex {
+    flex-flow: column nowrap;
+  }
+  .menuFlex {
+    flex-flow: column nowrap;
+  }
+  nav {
+    text-align: center;
+  }
+  img {
+    width: 300px;
+    height: 300px;
+  }
+  #galeria {
+    text-align: center;
+  }
+}
+#grillaAreas {
+  display: grid;
+  grid-template-areas: "cabeza cabeza cabeza" "menu cuerpo cuerpo" "menu productos productos" "pie pie pie";
+  grid-template-columns: 15% auto 20%;
+  grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+}
+
+header {
+  grid-area: cabeza;
+}
+
+#productos {
+  grid-area: productos;
+}
+
+#galeria {
+  grid-area: cuerpo;
+}
+
+nav {
+  grid-area: menu;
+}
+
+footer {
+  grid-area: pie;
+}
+
+h1 {
+  text-align: right;
+  font-size: 85px;
+  padding-right: 10%;
+}
+h1 section {
+  text-align: left;
+  font-size: 30px;
+  padding-left: 10%;
+}
+
+.transicion {
+  transition: width 2s;
+}
+.transicion:hover {
+  width: 50vh;
+}
+
+.textoAnimado {
+  animation-name: texto;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+@keyframes texto {
+  from {
+    transform: translateX(1300px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+  text-align: center;
+}
+h2 #h2Registro {
+  text-align: right;
+  padding-right: 10%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: beige;
+}
+
 /*# sourceMappingURL=destino.css.map */
