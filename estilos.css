@@ -39,6 +39,29 @@ h2 {
      text-align: right;
      padding-right: 10%;
  }
+ .saintfrank {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 1px solid black;
+ }
+
+ .grumpydonuts {
+    background-color: azure;
+    border-radius: 20px;
+    border: 1px solid black;
+ }
+
+ .stories {
+    background-color:burlywood;
+    border-radius: 20px;
+    border: 1px solid black;
+ }
+.elsquatregats {
+    background-color: darkgray;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
 span {
     margin: 5px;
     padding: 10px;

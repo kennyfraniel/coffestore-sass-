@@ -113,6 +113,49 @@ h2 #h2Registro {
   text-align: right;
   padding-right: 10%;
 }
+h2 .saintfrank, h2 .elsquatregats, h2 .stories, h2 .grumpydonuts {
+  background-color: antiquewhite;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+h2 .grumpydonuts {
+  background-color: bisque;
+}
+h2 .stories {
+  background-color: burlywood;
+}
+h2 .elsquatregats {
+  background-color: cornsilk;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.menuFlex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.tutorialesFlex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.formFlex {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.cafeteriasFlex {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.cafeFlex {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 body {
   width: 100%;

@@ -43,9 +43,30 @@ h2 {
     #h2Registro {
      text-align: right;
      padding-right: 10%;
- }
+    }
+    .saintfrank {
+        background-color: antiquewhite;
+        border-radius: 20px;
+        border: 1px solid black;
+     }
+    
+     .grumpydonuts {
+        @extend .saintfrank;
+        background-color: bisque;
+     }
+    
+     .stories {
+       @extend .saintfrank;
+       background-color: burlywood;
+     }
+    .elsquatregats {
+       @extend .saintfrank;
+       background-color: cornsilk;
+    }
+    
 }
 
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
