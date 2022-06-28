@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*Imports*/
 @media (min-width: 481px) and (max-width: 1023px) {
   .menuFlex {
     flex-flow: column wrap;
@@ -155,6 +156,13 @@ p {
 .cafeFlex {
   display: flex;
   flex-flow: row wrap;
+}
+
+/*Variables*/
+/*MIXINS*/
+img {
+  height: 500px;
+  width: 500px;
 }
 
 body {

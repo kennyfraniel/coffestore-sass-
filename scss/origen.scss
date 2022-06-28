@@ -3,15 +3,28 @@
     padding: 0;
 
 }
-
+/*Imports*/
 @import "../scss/base/responsive";
 @import "../scss/base/grilla";
 @import "../scss/base/titulos";
 @import "../scss/base/flex";
 
+/*Variables*/
+$beige: beige;
+
+/*MIXINS*/
+
+@mixin tamañoMediaQ ($ancho, $alto) {
+    height: $alto;
+    width: $ancho;
+}
+img {
+    @include tamañoMediaQ(500px,500px)
+}
+
 body {
     width: 100%;
     height: 100vh;
-    background-color: beige;
+    background-color: $beige;
     
 }  
