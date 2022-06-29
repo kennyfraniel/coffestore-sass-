@@ -61,7 +61,10 @@ h2 {
     border-radius: 20px;
     border: 1px solid black;
 }
-
+ h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+ }
 span {
     margin: 5px;
     padding: 10px;
@@ -120,7 +123,7 @@ p {
     "pie pie pie"
     ;
     grid-template-columns: 15% auto 20%;
-    grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
 }   
 header {
     grid-area: cabeza;
