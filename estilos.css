@@ -90,6 +90,20 @@ form {
 p {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+h4 {
+    color: burlywood;
+}
+footer {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/222/199/non_2x/coffee-background-with-realistic-cup-of-coffee-vector.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding-right: 20%;
+
+}
+
 /*Transiciones*/
 .transicion {
     transition: width 2s;

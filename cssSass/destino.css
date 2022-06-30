@@ -129,6 +129,14 @@ h2 .elsquatregats {
   background-color: cornsilk;
 }
 
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  color: burlywood;
+}
+
 p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
@@ -165,10 +173,27 @@ img {
   width: 500px;
 }
 
+/*General*/
 body {
   width: 100%;
   height: 100vh;
   background-color: beige;
+}
+
+header {
+  background-image: url("https://i.pinimg.com/originals/98/33/e2/9833e22c4361d1185913336f82046a43.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/222/199/non_2x/coffee-background-with-realistic-cup-of-coffee-vector.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+  padding-right: 20%;
 }
 
 /*# sourceMappingURL=destino.css.map */
